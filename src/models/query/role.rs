@@ -4,4 +4,5 @@ use super::*;
 #[serde(crate = "rocket::serde")]
 pub struct Role {
     pub guid: String,
+    pub name: String,
 }

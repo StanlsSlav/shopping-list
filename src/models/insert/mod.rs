@@ -7,3 +7,4 @@ pub mod product;
 pub mod role;
 pub mod shopping_cart;
 pub mod shopping_list;
+mod user;

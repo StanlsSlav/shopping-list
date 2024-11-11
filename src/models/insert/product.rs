@@ -1,6 +1,6 @@
 use super::*;
 
-#[derive(Deserialize, Insertable)]
+#[derive(Serialize, Deserialize, Insertable)]
 #[diesel(table_name = products)]
 pub struct Product {
     pub name: String,
